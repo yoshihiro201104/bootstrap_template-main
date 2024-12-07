@@ -1,0 +1,43 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-text{
+  padding: 20px;
+  font-size:20px;
+  color:#6c6b6b
+}
+
+main{
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+
+}
+
+.blog-item{
+  padding: 30px;
+  border-bottom: 8px solid #f7f7f7;
+}
+
+.text{
+  font-size: 15px;
+  
+}
+
+.website{
+  font-size: 15px;
+}
